@@ -1,2 +1,2 @@
-20.3. luotu ja aloitettu projekti
+	20.3. luotu ja aloitettu projekti + lisätty hubiin
 
