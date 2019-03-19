@@ -5,19 +5,29 @@
  */
 package UI;
 
+import javafx.application.Application;
+import javafx.stage.Stage;
+
 /**
  *
  * @author Samuli
  */
-public class Main {
+public class Main extends Application {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        launch(args);
+
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
         
         
     }
-    
+
 }
