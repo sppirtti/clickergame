@@ -10,5 +10,19 @@ package Logic;
  * @author Samuli
  */
 public class AppLogic {
+
+    int laskuri = 0;
+
+    public void lisaa() {
+        laskuri = laskuri + 1;
+    }
     
+    public int getLaskuri() {
+        return laskuri;
+    }
+    
+    public String laskuriToString() {
+        return Integer.toString(laskuri);
+    }
+   
 }
